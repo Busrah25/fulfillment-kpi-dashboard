@@ -28,10 +28,17 @@ Fulfillment centers included:
 - DET3  
 - DTW5  
 
+## Screenshot
+![Fulfillment KPI Dashboard](dashboard_preview.png)
+
+> Screenshot showing KPI summary cards, fulfillment center comparison, and daily trend analysis.
+
 ## How to Run Locally
 1. Clone the repository  
 2. Install dependencies  
 3. Launch the Streamlit application  
+
+
 
 streamlit run app.py
 
