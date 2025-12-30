@@ -1,47 +1,42 @@
 # Fulfillment KPI Dashboard
 
-An interactive fulfillment analytics dashboard built with Python and Streamlit that simulates Amazon style fulfillment operations across Michigan fulfillment centers.
+An interactive analytics dashboard built with Python and Streamlit that simulates fulfillment operations across multiple Michigan distribution centers.
 
 ## Overview
-This project models end to end fulfillment performance using realistic operational metrics commonly used by supply chain, operations, and analytics teams. The dashboard is designed to resemble an internal decision support tool used for monitoring operational health and identifying performance gaps.
-
-Key performance areas include:
-- Order cycle time
-- On time shipment rate
-- Order accuracy
-- Backorder rate
-
-The application allows users to explore performance trends, compare fulfillment centers, and evaluate metrics against defined targets.
+This project models end to end fulfillment performance using realistic operational metrics commonly used in supply chain and operations analytics. The dashboard is designed to resemble an internal decision support tool used to monitor performance and identify inefficiencies.
 
 ## Key Features
-- Interactive filters by fulfillment center and order date range
-- KPI summary cards with performance deltas versus targets
-- Fulfillment center level performance comparison
-- Daily trend analysis for cycle time and accuracy
-- Downloadable filtered dataset for further analysis
-- Clean, dark themed UI optimized for executive and analyst use
+- Interactive filtering by fulfillment center and date range  
+- KPI summary cards with target comparisons  
+- Fulfillment center level benchmarking  
+- Daily trend analysis for operational metrics  
+- Downloadable filtered dataset  
+- Clean dark themed interface  
 
 ## Technologies Used
-- Python
-- Pandas
-- Plotly
-- Streamlit
+- Python  
+- Pandas  
+- Plotly  
+- Streamlit  
 
-## Data
-The dataset is programmatically generated to simulate realistic fulfillment behavior across Michigan based fulfillment centers:
-- DTW1
-- DET2
-- DET3
-- DTW5
+## Data and Logic
+The dataset is programmatically generated to simulate realistic fulfillment behavior across Michigan based centers. Metrics are calculated using industry aligned business logic to ensure consistency and meaningful trends.
 
-All metrics are calculated using business logic aligned with real world fulfillment and operations analytics definitions. The data generation process ensures consistency, realistic distributions, and meaningful performance trends.
-
-## Dashboard Preview
-![Fulfillment KPI Dashboard](dashboard_preview.png)
+Fulfillment centers included:
+- DTW1  
+- DET2  
+- DET3  
+- DTW5  
 
 ## How to Run Locally
+1. Clone the repository  
+2. Install dependencies  
+3. Launch the Streamlit application  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Busrah25/fulfillment-kpi-dashboard.git
-   cd fulfillment-kpi-dashboard
+streamlit run app.py
+
+
+## Future Improvements
+- Integration with real world datasets  
+- User authentication and saved views  
+- Exportable executive reports  
